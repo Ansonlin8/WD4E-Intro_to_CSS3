@@ -39,8 +39,10 @@ li {
     display: inline-block;
     width: 200px;
     margin: 8px 0;
+    text-align: center;
 }
 
+/* h1 */
 h1 {
     text-align: center;
     font-family: 'Georgia', serif;
@@ -48,11 +50,12 @@ h1 {
     margin: 15px 0 10px 0;
 }
 
+/* p */
 p {
     line-height: 1.8;
 }
 
-/* 额外美化 */
+/* ==================== 导航美化 ==================== */
 nav ul {
     list-style: none;
     padding: 0;
@@ -71,7 +74,10 @@ nav a:hover {
     border-radius: 5px;
 }
 
+/* 图片美化 */
 img {
     border-radius: 8px;
     margin: 10px;
+    max-width: 100%;
+    height: auto;
 }
