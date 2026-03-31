@@ -1,5 +1,4 @@
 /* style.css - Week 1 Homework - Styling Your First Page */
-/* Web Design for Everybody - Coursera */
 
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
@@ -11,27 +10,23 @@ body {
     line-height: 1.6;
 }
 
-/* Header - 要求修改 background color */
 header {
     background-color: #2c3e50;
     padding: 20px 0;
     text-align: center;
 }
 
-/* Nav - 要求修改 background color */
 nav {
     background-color: #34495e;
     padding: 12px 0;
 }
 
-/* Main - 要求修改 background color 和 font size */
 main {
     background-color: #ecf0f1;
     padding: 30px 20px;
     font-size: 1.1rem;
 }
 
-/* Footer - 要求修改 background color */
 footer {
     background-color: #2c3e50;
     color: #ecf0f1;
@@ -40,14 +35,12 @@ footer {
     margin-top: 30px;
 }
 
-/* li - 要求修改 display 和 width */
 li {
     display: inline-block;
     width: 200px;
     margin: 8px 0;
 }
 
-/* h1 - 要求修改 text-align, font-family, color */
 h1 {
     text-align: center;
     font-family: 'Georgia', serif;
@@ -55,13 +48,11 @@ h1 {
     margin: 15px 0 10px 0;
 }
 
-/* p - 要求修改 line-height */
 p {
     line-height: 1.8;
 }
 
-/* ==================== 额外美化（推荐） ==================== */
-
+/* 额外美化 */
 nav ul {
     list-style: none;
     padding: 0;
@@ -83,9 +74,4 @@ nav a:hover {
 img {
     border-radius: 8px;
     margin: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-div {
-    text-align: center;
 }
